@@ -1,0 +1,27 @@
+.features{
+    width: 300px;
+}
+.input-text {
+    resize: horizontal;
+    overflow: auto;
+    width: 200px;
+    outline: none;
+    border: solid 2px gray;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-family: Geneva;
+}
+.input-text:focus{
+    border: dashed 2px gray;
+}
+
+.text-style {
+    width: 40px;
+    height: 40px;
+}
+
+.font-size{
+    width: 50px;
+}
